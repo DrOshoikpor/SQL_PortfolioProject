@@ -1,8 +1,18 @@
+EXPLORATORY DATA ANALYSIS USING SQL
+
+Actual dataset used for this project can be found here https://ourworldindata.org/covid-deaths
+
+-- First step:  current covid datasets was imported as an xslx file.
+-- I divided the datasets into two tables (1) covid_deaths (2) covid_vaccinations
+-- Created database(PortfoloDB) in Microsoft SQL Server Management studio and imported the 2 tables into the database.
+
+-- check the first table
 SELECT *
 FROM PortfolioDB..covid_death$
 where continent is not null
 order by 3,4
 
+-- check second table
 --SELECT *
 --FROM PortfolioDB..covid_vacination$
 --order by 3,4

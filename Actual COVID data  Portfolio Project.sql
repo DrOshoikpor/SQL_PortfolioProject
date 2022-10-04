@@ -1,10 +1,14 @@
-EXPLORATORY DATA ANALYSIS USING SQL
+COVID 19 EXPLORATORY DATA ANALYSIS USING SQL
 
 Actual dataset used for this project can be found here https://ourworldindata.org/covid-deaths
 
 -- First step:  current covid datasets was imported as an xslx file.
 -- I divided the datasets into two tables (1) covid_deaths (2) covid_vaccinations
 -- Created database(PortfoloDB) in Microsoft SQL Server Management studio and imported the 2 tables into the database.
+
+/*
+Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+*/
 
 -- check the first table
 SELECT *
